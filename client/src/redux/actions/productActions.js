@@ -2,7 +2,7 @@ import axios from "axios";
 
 import * as actionTypes  from "../constants/productConstants";
 
-const URL="https://backend-api-8276.onrender.com/";
+const URL="https://backend-api-8276.onrender.com";
 
 
 export const getProducts=()=>async(dispatch)=>{
