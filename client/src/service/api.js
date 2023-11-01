@@ -1,5 +1,5 @@
 import axios from 'axios';
-const URL='';
+const URL='https://backend-api-8276.onrender.com';
 
 export  const authenticateSignup = async(data)=>{
     try {
