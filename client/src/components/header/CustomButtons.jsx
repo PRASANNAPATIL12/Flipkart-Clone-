@@ -28,7 +28,7 @@ margin:'0 3% 0 auto',
 
 const Cart=styled(Link)(({theme})=>({
     display:'flex',
-    color:'white',
+    color:'inherit',
     [theme.breakpoints.down('md')]:{
         display:'block'
     }
